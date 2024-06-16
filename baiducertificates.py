@@ -6,7 +6,7 @@ from baidubce.auth import bce_credentials
 from baidubce import bce_base_client, bce_client_configuration
 from dotenv import load_dotenv
 
-# Install dependencies: pip install bce-python-sdk
+# Install dependencies: pip install -r requirements.txt
 
 def load_env_file(file_path):
     if os.path.exists(file_path):
