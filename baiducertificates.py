@@ -57,7 +57,7 @@ class Sample(bce_base_client.BceBaseClient):
         self.config.merge_non_none_values(config)
 
     def run(self):
-        path = b'/v2/'+DOMAIN+'/certificates'
+        path = b'/v2/'+DOMAIN.encode('utf-8')+b'/certificates'
         print("APIPATH:", path)
         headers = {
             b'Content-Type': 'application/json'
