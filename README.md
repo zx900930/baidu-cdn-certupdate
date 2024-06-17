@@ -1,5 +1,7 @@
 # baidu-cdn-certupdate
 
+ENGLISH | [查看中文版](README_CN.md)
+
 Baidu cdn certificates auto update script
 
 ## Description
